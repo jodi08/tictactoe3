@@ -43,8 +43,9 @@ function render() {
     squares[index].textContent = mark;
   })
   messages.textContent = win === 'T' ? `That's a tie!` : win ? `${win} wins the game!` : `It's ${turn}'s turn!`;
+  
   // if(win === 'X') {
-  //   xscore = document.querySelector('player-X').innerHTML = xscore
+  //   xscore = document.querySelector('player-X').innerHTML = xscor
   //   xscore++
   // } else {
   //   oscore = document.querySelector('player-O').innerHTML = oscore

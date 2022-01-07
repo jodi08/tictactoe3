@@ -41,8 +41,8 @@ body {
 }
 .square {
   border: 2px solid rgba(0, 0, 0, 0.75);
-  height: 140px;
-  width: 140px;
+  height: 8.75rem;
+  width: 8.75rem;
   margin-right: 3px;
   display: flex;
   justify-content: center;
